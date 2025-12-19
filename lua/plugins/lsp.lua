@@ -54,7 +54,7 @@ return {
       local java_latest_path = ""
 
       if is_windows then
-        java_latest_path = "C:\\Program Files\\Amazon Coretto\\jdk21.0.3_9"
+        java_latest_path = "C:\\Program Files\\Amazon Corretto\\jdk21.0.3_9"
         java8_path = "C:\\ProgramData\\Oracle\\Java\\javapath"
       else
         java_latest_path = "/usr/lib/jvm/java-25-openjdk"
